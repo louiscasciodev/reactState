@@ -1,9 +1,22 @@
 .App {
   text-align: center;
+  margin: 60px;
 }
 
 .App-logo {
   height: 40vmin;
+  margin: 60px;
+}
+
+.App-logoTurn {
+  height: 40vmin;
+  margin: 60px;
+  -webkit-transform: rotate(360deg);
+  -webkit-transition-duration: 5s;
+  -webkit-transition-delay: now;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: 300;
+  /* transform: rotateY(180deg) rotateZ(180deg); */
 }
 
 .App-header {
